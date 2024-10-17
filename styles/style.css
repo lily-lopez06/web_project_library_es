@@ -171,6 +171,7 @@
 
 .events__content {
   flex-basis: 580px;
+  position: relative;
 }
 
 .events__heading {
@@ -235,39 +236,39 @@
 }
 
 .person {
-  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  position: absolute;
 }
 
 .person_name_feynman {
   position: absolute;
   top: -30px;
-  left: 319px;
+  right: 319px;
 }
 
 .person_name_burbidge {
-  position: relative;
+  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: relative;
+  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  position: relative;
+  position: absolute;
   left: 142px;
   bottom: 82px;
 }
 
 .person_name_tarter {
-  position: relative;
+  position: absolute;
   top: 79px;
   left: 159px;
 }
