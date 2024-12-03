@@ -8,14 +8,14 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -45,7 +45,7 @@
 
 .header__content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header__title {
@@ -66,6 +66,8 @@
 .header__image {
   margin: 0;
   max-width: 636px;
+  position: absolute;
+  right: 50px;
 }
 
 .header__footer {
